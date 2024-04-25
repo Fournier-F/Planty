@@ -11,3 +11,67 @@ Updated: 2024-04-17 15:29:34
 
 */
 
+body * {
+
+    font-family: 'Syne', sans-serif;
+
+}
+
+/*HEADER*/
+
+.site-header {
+	height : 80px;
+	padding-top : 0;
+	padding-bottom : 0;
+}
+
+.site-header .site-branding {
+	padding-left : 50px;
+}
+
+.site-navigation ul.menu li a {
+	padding-top : 30px;
+	padding-bottom : 30px;
+	padding-left : 75px;
+	padding-right : 75px;
+	font-weight : 400;
+	font-size : 16px;
+}
+
+.site-navigation li a {
+	color : black;
+}
+
+.site-navigation .menu-item-100 a {
+    background-color : #DC9F96;
+	color : white;
+}
+
+.site-navigation .menu-item-100 a:hover {
+    background-color : #C02E44
+}
+
+/*FOOTER*/
+
+.site-footer {
+	padding-top : 0px;
+	padding-bottom : 0px;
+}
+
+
+#footer .menu-footer-container {
+	height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .menu-item {
+	list-style-type : none;
+}
+
+#footer .menu-item a {
+	color : black;
+	font-weight : 400;
+	font-size : 16px;
+}

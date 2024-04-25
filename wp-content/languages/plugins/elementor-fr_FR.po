@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder &#8211; More than Just a Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-04-16 13:20:20+0000\n"
+"PO-Revision-Date: 2024-04-17 22:27:44+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -101,6 +101,10 @@ msgstr "Vous souhaitez créer des chemins de texte personnalisés avec SVG ?"
 msgid "Add any icon, anywhere on your website"
 msgstr "Ajoutez n’importe quelle icône, n’importe où sur votre site"
 
+#: modules/promotions/admin-menu-items/custom-fonts-promotion-item.php:28
+msgid "Upload any font to keep your website true to your brand"
+msgstr "Téléversez n’importe quelle police pour que votre site reste fidèle à votre marque"
+
 #: modules/promotions/admin-menu-items/custom-fonts-promotion-item.php:23
 msgid "Stay on brand with a Custom Font"
 msgstr "Restez fidèle à votre marque avec une police personnalisée"
@@ -108,6 +112,28 @@ msgstr "Restez fidèle à votre marque avec une police personnalisée"
 #: modules/promotions/admin-menu-items/custom-code-promotion-item.php:30
 msgid "Leverage Elementor AI to instantly generate Custom Code for Elementor"
 msgstr "Tirez parti d’Elementor AI pour générer instantanément du code personnalisé pour Elementor"
+
+#: modules/promotions/admin-menu-items/custom-code-promotion-item.php:29
+msgid "Use Custom Code to create sophisticated custom interactions to engage visitors"
+msgstr "Utilisez le code personnalisé pour créer des interactions personnalisées sophistiquées pour engager les internautes"
+
+#: modules/apps/module.php:70
+msgid "For Elementor"
+msgstr "Pour Elementor"
+
+#: modules/apps/admin-pointer.php:35
+msgid "Explore Add-ons"
+msgstr "Explorer les modules"
+
+#: modules/apps/admin-pointer.php:29
+msgid "New! Popular Add-ons"
+msgstr "Nouveau ! Modules populaires"
+
+#: modules/apps/admin-menu-apps.php:22 modules/apps/admin-menu-apps.php:26
+#: modules/apps/module.php:37 assets/js/admin-top-bar.js:187
+#: assets/js/editor.js:37794
+msgid "Add-ons"
+msgstr "Modules"
 
 #: includes/widgets/text-editor.php:146
 msgid "10"
@@ -148,6 +174,91 @@ msgstr "2"
 #: includes/widgets/text-editor.php:137
 msgid "1"
 msgstr "1"
+
+#: includes/widgets/icon-box.php:329 includes/widgets/image-box.php:302
+msgid "Content Spacing"
+msgstr "Espacement du contenu"
+
+#: includes/controls/base-units.php:138
+msgid "Custom unit"
+msgstr "Unité personnalisée"
+
+#: core/role-manager/role-manager.php:213
+msgid "Enable the option to use the HTML widget"
+msgstr "Activer cette option pour utiliser le widget HTML"
+
+#: includes/editor-templates/panel-elements.php:31
+msgid "Access all Pro widgets."
+msgstr "Accédez à tous les widgets Pro."
+
+#: includes/editor-templates/navigator.php:19
+msgid "Access all Pro widgets"
+msgstr "Accéder à tous les widgets Pro"
+
+#: core/admin/admin.php:975
+msgid "Don’t let unoptimized images be the downfall of your site’s performance."
+msgstr "Ne laissez pas les images non optimisées nuire aux performances de votre site."
+
+#: core/utils/hints.php:143 core/utils/hints.php:145
+#: includes/controls/notice.php:83 includes/controls/notice.php:85
+msgid "Don’t show again."
+msgstr "Ne plus afficher."
+
+#: includes/managers/controls.php:1301 assets/js/editor.js:51432
+msgid "Sticky"
+msgstr "Épinglé"
+
+#: includes/managers/controls.php:1292 assets/js/editor.js:51417
+msgid "Mouse Effects"
+msgstr "Effet de souris"
+
+#: includes/managers/controls.php:1283 assets/js/editor.js:51402
+msgid "Scrolling Effects"
+msgstr "Effets de défilement"
+
+#: includes/controls/gallery.php:123 includes/controls/media.php:273
+msgid "Install Plugin"
+msgstr "Installer l’extension"
+
+#: modules/promotions/admin-menu-items/form-submissions-promotion-item.php:34
+msgid "Integrate your favorite marketing software*"
+msgstr "Intégrez votre logiciel de marketing préféré*"
+
+#: includes/widgets/video.php:106
+msgid "Grab your visitors' attention"
+msgstr "Attirez l’attention de vos internautes"
+
+#: includes/widgets/testimonial.php:174
+msgid "Designer"
+msgstr "Concepteur"
+
+#: includes/widgets/testimonial.php:159
+msgid "John Doe"
+msgstr "John Doe"
+
+#: includes/widgets/image-gallery.php:241
+msgid "Custom Spacing"
+msgstr "Espacement personnalisé"
+
+#: includes/widgets/button.php:95
+msgid "Convert visitors into customers"
+msgstr "Convertissez vos internautes en clients/clientes"
+
+#: includes/template-library/manager.php:438
+msgid "You do not have permission to export this template."
+msgstr "Vous n’avez pas les droits pour exporter ce modèle."
+
+#: includes/template-library/manager.php:434
+msgid "You do not have permission to access this template."
+msgstr "Vous n’avez pas le droit d’accéder à ce modèle."
+
+#: includes/managers/controls.php:1252 assets/js/editor.js:51387
+msgid "Display Conditions"
+msgstr "Conditions d’affichage"
+
+#: includes/editor-templates/templates.php:220
+msgid "Generate Variations"
+msgstr "Générer des variations"
 
 #: includes/controls/groups/background.php:162
 msgid "Set locations and angle for each breakpoint to ensure the gradient adapts to different screen sizes."
@@ -215,6 +326,13 @@ msgstr "Ajouter un nouveau modèle"
 msgid "Image Resolution"
 msgstr "Résolution de l’image"
 
+#: core/common/modules/finder/categories/settings.php:71
+#: modules/element-manager/admin-menu-app.php:22
+#: modules/element-manager/admin-menu-app.php:26
+#: modules/element-manager/admin-menu-app.php:35
+msgid "Element Manager"
+msgstr "Gestionnaire d’élément"
+
 #. translators: %s: Recommended PHP version.
 #: modules/system-info/reporters/server.php:132
 msgid "We recommend using PHP version %s or higher."
@@ -236,6 +354,10 @@ msgstr "Une image ne doit pas être chargée \"paresseusement\" (lazy-load) et m
 #: includes/settings/settings.php:412
 msgid "Applying %1$s on LCP image and %2$s on images below the fold to improve performance scores."
 msgstr "Appliquer %1$s sur le LCP image et %2$s sur les images sous la ligne de flottaison pour améliorer les scores de performance."
+
+#: includes/settings/settings.php:402
+msgid "Optimized Image Loading"
+msgstr "Chargement optimisé des images"
 
 #: includes/settings/settings.php:398
 msgid "Use this experiment to reduce unnecessary render-blocking loads, enhancing site performance by dequeuing unused Gutenberg block editor files (styles and scripts)."
@@ -419,6 +541,10 @@ msgstr "Vous rencontrez des problèmes après la mise à jour de la version ? N
 msgid "The version was updated successfully!"
 msgstr "La version a bien été mise à jour !"
 
+#: app/modules/onboarding/module.php:132
+msgid "You do not have permission to perform this action."
+msgstr "Vous n’avez pas les droits nécessaires pour effectuer cette action."
+
 #: modules/nested-tabs/widgets/nested-tabs.php:1178
 #: modules/nested-tabs/widgets/nested-tabs.php:1290
 msgid "Tabs. Open items with Enter or Space, close with Escape and navigate using the Arrow keys."
@@ -490,6 +616,10 @@ msgstr "En apprendre plus concernant cette page."
 #: modules/apps/admin-apps-page.php:25
 msgid "Boost your web-creation process with add-ons, plugins, and more tools specially selected to unleash your creativity, increase productivity, and enhance your Elementor-powered website."
 msgstr "Augmentez votre processus de création avec des modules complémentaires, des extensions et d’autres outils spécialement sélectionnés pour libérer votre créativité, augmenter votre productivité et améliorer votre site propulsé par Elementor."
+
+#: modules/apps/admin-apps-page.php:24
+msgid "Popular Add-ons, New Possibilities."
+msgstr "Modules populaires, nouvelles possibilités."
 
 #: includes/widgets/video.php:233
 msgid "Choose Video File"
@@ -1403,6 +1533,11 @@ msgstr "L’argument %1$s est obsolète depuis la version %2$s !"
 #: modules/dev-tools/deprecation.php:287
 msgid "The %1$s argument is deprecated since version %2$s! Use %3$s instead."
 msgstr "L’argument %1$s est obsolète depuis la version %2$s ! Utilisez plutôt %3$s."
+
+#. translators: 1: Link open tag, 2: Link close tag.
+#: includes/settings/tools.php:390
+msgid "%1$sClick here%2$s %3$sto join our first-to-know email updates.%4$s"
+msgstr "%1$sCliquez ici%2$s %3$s pour être informé par e-mail sur nos mises à jour.%4$s"
 
 #: includes/managers/controls.php:1120
 msgid "Meet Page Transitions"
@@ -3433,7 +3568,7 @@ msgstr "Collez ou saisissez votre URL"
 #: includes/controls/groups/css-filter.php:129
 msgctxt "Filter Control"
 msgid "Hue"
-msgstr "Ton"
+msgstr "Teinte"
 
 #: core/debug/inspector.php:49
 msgid "Debug Bar"
@@ -6292,6 +6427,10 @@ msgstr "Non"
 #: assets/js/app.js:9671
 msgid "Yes"
 msgstr "Oui"
+
+#: includes/controls/gallery.php:123 includes/controls/media.php:273
+msgid "Activate Plugin"
+msgstr "Activer l’extension"
 
 #: core/role-manager/role-manager.php:74
 msgid "Exclude Roles"
