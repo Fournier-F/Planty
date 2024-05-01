@@ -23,3 +23,22 @@ add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 
 // END ENQUEUE PARENT ACTION
 
+/*Nom unique*/ /*Nom fonction*/ /*priorité*/ /*nombre d'arguments*/
+
+
+function Ajout_Lien_Admin( $items, $args ) {
+
+    if ( is_user_logged_in() && $args->theme_location == 'menu-1' ) {
+				
+        $Lien_Admin = '<li id="menu-item-102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102"><a href="' . admin_url() . '">Admin</a></li>';
+        
+        $Pos_Dans_Menu = strpos( $items, 'Nous rencontrer' );
+
+        $items = substr_replace( $items, $Lien_Admin, $Pos_Dans_Menu + strlen('Nous rencontrer'), 0);
+		
+		/*var_dump($args);*/
+    }
+
+    return $items;
+}
+add_filter( 'wp_nav_menu_items', 'Ajout_Lien_Admin', 10, 2 );
