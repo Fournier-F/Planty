@@ -17,6 +17,7 @@ body * {
 
 }
 
+
 /*HEADER*/
 
 .site-header {
@@ -51,6 +52,7 @@ body * {
     background-color : #C02E44
 }
 
+
 /*FOOTER*/
 
 .site-footer {
@@ -74,4 +76,44 @@ body * {
 	color : black;
 	font-weight : 400;
 	font-size : 16px;
+}
+
+
+/*FORMULAIRE*/
+
+.formulaire-1 label.libele {
+	font-size : 20px;
+	font-weight : 400;
+	padding-top : 10px;
+	padding-bottom : 10px;
+}
+
+.formulaire-1 .champ{
+	border-radius: 7px;
+	border : none;
+	resize: none;
+	
+}
+
+.formulaire-1 .bouton{
+	background-color : #E0B9B4;
+	color : white;
+	border-radius: 5px;
+	border : none;
+	padding-top : 15px;
+	padding-bottom : 15px;
+	padding-left : 70px;
+	padding-right : 70px;
+}
+
+.formulaire-1 .bouton:hover{
+	background-color : #C02E44;
+}
+
+.formulaire-1 p.centrer {
+	text-align : center;
+}
+
+.formulaire-1 span.wpcf7-spinner {
+    display: none;
 }
