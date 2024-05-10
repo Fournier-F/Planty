@@ -211,3 +211,20 @@ body * {
 .separator-v {
 	border-right: solid 1px white;
 }
+
+
+@media screen and (max-width: 767px) {
+
+.formulaire-2 p.titre {
+	font-size : 15px;
+}
+
+.formulaire-2 label.libele {
+	font-size : 15px;
+}
+
+.quantities {
+	justify-content: center;
+}
+
+}
